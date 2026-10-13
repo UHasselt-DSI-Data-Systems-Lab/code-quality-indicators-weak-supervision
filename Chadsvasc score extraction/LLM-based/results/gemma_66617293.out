@@ -1,0 +1,70 @@
+========================================================================
+Retrieval mode: lexical
+=== Metrics: Unstructured data only ===
+             Component Precision    Recall                          F1
+0                    C   0.94898  0.939394                    0.944162
+1                    H  0.947368  0.666667                    0.782609
+2                   A2       1.0       1.0                         1.0
+3                    D      0.92       1.0                    0.958333
+4                    S  0.961538   0.78125                    0.862069
+5                    V  0.967742  0.909091                      0.9375
+6                    A       1.0  0.978723                    0.989247
+7                   Sc  0.948718  0.936709                    0.942675
+8  Overall Macro/Micro      None      None  Macro: 0.927, Micro: 0.921
+=== Metrics: Unstructured data + Structured ICD-10 ===
+             Component Precision    Recall                          F1
+0                    C  0.951923       1.0                    0.975369
+1                    H  0.964286       1.0                    0.981818
+2                   A2       1.0       1.0                         1.0
+3                    D      0.92       1.0                    0.958333
+4                    S   0.96875   0.96875                     0.96875
+5                    V  0.967742  0.909091                      0.9375
+6                    A       1.0  0.978723                    0.989247
+7                   Sc  0.948718  0.936709                    0.942675
+8  Overall Macro/Micro      None      None  Macro: 0.969, Micro: 0.972
+Retrieval mode: semantic
+=== Metrics: Unstructured data only ===
+             Component Precision    Recall                          F1
+0                    C  0.934783  0.868687                    0.900524
+1                    H  0.977778  0.651852                    0.782222
+2                   A2       1.0       1.0                         1.0
+3                    D      0.86  0.934783                    0.895833
+4                    S       1.0    0.6875                    0.814815
+5                    V  0.605769  0.954545                    0.741176
+6                    A       1.0  0.978723                    0.989247
+7                   Sc       1.0  0.746835                    0.855072
+8  Overall Macro/Micro      None      None  Macro: 0.872, Micro: 0.868
+=== Metrics: Unstructured data + Structured ICD-10 ===
+             Component Precision    Recall                          F1
+0                    C  0.938776  0.929293                     0.93401
+1                    H  0.985401       1.0                    0.992647
+2                   A2       1.0       1.0                         1.0
+3                    D  0.862745  0.956522                    0.907216
+4                    S       1.0    0.9375                    0.967742
+5                    V  0.605769  0.954545                    0.741176
+6                    A       1.0  0.978723                    0.989247
+7                   Sc       1.0  0.746835                    0.855072
+8  Overall Macro/Micro      None      None  Macro: 0.923, Micro: 0.925
+Retrieval mode: hybrid
+=== Metrics: Unstructured data only ===
+             Component Precision    Recall                          F1
+0                    C  0.948454  0.929293                    0.938776
+1                    H  0.947368  0.666667                    0.782609
+2                   A2       1.0       1.0                         1.0
+3                    D      0.92       1.0                    0.958333
+4                    S  0.961538   0.78125                    0.862069
+5                    V  0.967742  0.909091                      0.9375
+6                    A       1.0  0.978723                    0.989247
+7                   Sc  0.948718  0.936709                    0.942675
+8  Overall Macro/Micro      None      None  Macro: 0.926, Micro: 0.920
+=== Metrics: Unstructured data + Structured ICD-10 ===
+             Component Precision    Recall                          F1
+0                    C  0.951456  0.989899                    0.970297
+1                    H  0.964286       1.0                    0.981818
+2                   A2       1.0       1.0                         1.0
+3                    D      0.92       1.0                    0.958333
+4                    S   0.96875   0.96875                     0.96875
+5                    V  0.967742  0.909091                      0.9375
+6                    A       1.0  0.978723                    0.989247
+7                   Sc  0.948718  0.936709                    0.942675
+8  Overall Macro/Micro      None      None  Macro: 0.969, Micro: 0.971

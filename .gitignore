@@ -1,0 +1,47 @@
+# --- Data (protected health information, never commit) ---
+*.feather
+*.csv
+*.tsv
+*.parquet
+*.pkl
+*.pickle
+*.xlsx
+*.xls
+*.h5
+*.npy
+*.npz
+datasets/
+feather_files/
+trainingsets/
+titles_output/
+
+# Data-derived text dumps (e.g. extracted titles); keep requirements
+*.txt
+!requirements.txt
+
+# --- Models and embeddings ---
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.gguf
+*.model
+models/
+checkpoints/
+
+# --- SLURM error logs ---
+*.err
+
+# --- Python / Jupyter ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv*/
+venv/
+env/
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

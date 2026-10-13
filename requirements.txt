@@ -1,0 +1,12 @@
+# Requirements for the code folder
+# Install with: pip install -r requirements.txt
+
+numpy
+pandas
+torch
+transformers
+datasets
+scikit-learn
+nltk
+sentence-transformers
+llama-cpp-python
